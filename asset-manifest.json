@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/todoapp/static/css/main.c03f81e1.css",
+    "main.js": "/todoapp/static/js/main.b84f3132.js",
+    "static/js/787.1ed0c42c.chunk.js": "/todoapp/static/js/787.1ed0c42c.chunk.js",
+    "static/media/TODOAPP.png": "/todoapp/static/media/TODOAPP.27f358eebc4dbf855e27.png",
+    "static/media/Aleksa-Logo.png": "/todoapp/static/media/Aleksa-Logo.53db9488d2ac32025f06.png",
+    "static/media/Background-03.jpg": "/todoapp/static/media/Background-03.d8eff3bf58866841fbcb.jpg",
+    "static/media/Background-02.jpg": "/todoapp/static/media/Background-02.3a5a03b48bd2c71c9fa7.jpg",
+    "static/media/home.png": "/todoapp/static/media/home.5d9d19b45b2d03f2b358.png",
+    "static/media/form.png": "/todoapp/static/media/form.2e3cd044fdde95b97384.png",
+    "static/media/Aleksa-Resume.pdf": "/todoapp/static/media/Aleksa-Resume.9f15356643f6efa68075.pdf",
+    "static/media/list.png": "/todoapp/static/media/list.56deb726e1977604da95.png",
+    "index.html": "/todoapp/index.html",
+    "main.c03f81e1.css.map": "/todoapp/static/css/main.c03f81e1.css.map",
+    "main.b84f3132.js.map": "/todoapp/static/js/main.b84f3132.js.map",
+    "787.1ed0c42c.chunk.js.map": "/todoapp/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c03f81e1.css",
+    "static/js/main.b84f3132.js"
+  ]
+}
