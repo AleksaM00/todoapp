@@ -1,0 +1,103 @@
+:root {
+  --primary-color: #120f2c;
+  --secondary-color: #22223d;
+  --third-color: #303274;
+
+  /* font colors */
+  --font-color-1: #fbb040;
+  --font-color-2: #916620;
+  --white-color: #fff;
+
+  /* dark color */
+  --dark-color: #301800;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--primary-color);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 6rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: var(--font-color-1);
+  letter-spacing: 2px;
+  line-height: 1.7;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--font-color-1);
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--font-color-1);
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--white-color);
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  line-height: 1.7;
+}
+
+@media screen and (max-width: 112.5em) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media screen and (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media screen and (max-width: 56.25em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+/* @media screen and (max-width: 37.25em) {
+  html {
+    font-size: 75%;
+  }
+} */

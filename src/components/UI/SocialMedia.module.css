@@ -1,0 +1,45 @@
+.socialMedia {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+.socialMedia a {
+  font-size: 3rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+}
+
+.sm1 {
+  border: 1px solid violet;
+  color: violet;
+}
+.sm1:hover {
+  background-color: hsl(300, 76%, 42%);
+  color: var(--white-color);
+}
+
+.sm2 {
+  border: 1px solid blue;
+  color: blue;
+}
+.sm2:hover {
+  background-color: hsl(240, 100%, 20%);
+  color: var(--white-color);
+}
+
+.sm3 {
+  border: 1px solid black;
+  color: black;
+}
+.sm3:hover {
+  background-color: hsl(0, 0%, 10%);
+  color: var(--white-color);
+}

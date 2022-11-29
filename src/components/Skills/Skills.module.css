@@ -1,0 +1,97 @@
+.skills {
+  padding: 2rem 0;
+
+  background: url("../../assets/Images/Background-03.jpg");
+}
+
+.skills h3 {
+  text-align: center;
+}
+
+.SkillsBox {
+  max-width: 130rem;
+  margin: 5rem auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skillsLeft {
+  padding: 2rem;
+  flex: 0 0 40%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  transition: all 0.5s;
+
+  background-color: var(--secondary-color);
+}
+.skillsLeft:hover {
+  background-color: var(--third-color);
+  transform: scale(1.02);
+}
+
+.skillsLeftRightBoxWrapper {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.skillsLeftRightBox {
+  display: flex;
+  align-items: center;
+  margin: 3rem 4rem;
+}
+
+.skillsLeftRightBox:nth-child(5) {
+  margin: 3rem 4rem 0 4rem;
+}
+
+.skillsLeftRightBox:nth-child(6) {
+  margin: 3rem 4rem 0 4rem;
+}
+
+.skillsLeftRightBox .badge {
+  font-size: 2rem;
+  color: hsl(240, 100%, 80%);
+  margin-right: 0.7rem;
+}
+
+.skillsRight {
+  padding: 2rem;
+  flex: 0 0 40%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  transition: all 0.5s;
+
+  background-color: var(--secondary-color);
+}
+.skillsRight:hover {
+  background-color: var(--third-color);
+  transform: scale(1.02);
+}
+
+@media screen and (max-width: 112.5em) {
+  .skills {
+    padding: 4rem;
+  }
+}
+
+@media screen and (max-width: 56.25em) {
+  .SkillsBox {
+    flex-direction: column;
+  }
+
+  .skillsLeft {
+    margin-bottom: 5rem;
+    width: 90%;
+  }
+
+  .skillsRight {
+    width: 90%;
+  }
+}

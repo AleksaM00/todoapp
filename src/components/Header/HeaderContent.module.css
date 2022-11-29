@@ -1,0 +1,65 @@
+.hero {
+  max-width: 130rem;
+  margin: 5rem auto;
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heroLeft {
+  flex: 0 0 50%;
+  padding: 1rem;
+}
+
+.heroLeft h1 {
+  margin-bottom: 1rem;
+}
+
+.heroLeft h3 {
+  margin-bottom: 2rem;
+}
+
+.heroLeft span {
+  color: var(--white-color);
+}
+
+.heroRight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 50%;
+  padding: 1rem;
+}
+
+.heroRight img {
+  height: 60rem;
+}
+
+@media screen and (max-width: 75em) {
+  .heroRight img {
+    height: 40rem;
+  }
+}
+
+@media screen and (max-width: 56.25em) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .heroLeft {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .heroLeft h1 {
+    text-align: center;
+  }
+
+  .heroRight {
+    width: 100%;
+  }
+}

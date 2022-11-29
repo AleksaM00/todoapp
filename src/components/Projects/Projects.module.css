@@ -1,0 +1,154 @@
+.projects {
+  padding: 2rem 0;
+  max-width: 130rem;
+  margin: 5rem auto;
+}
+
+.projects h3 {
+  text-align: center;
+}
+
+.ProjectBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+
+.ProjectBoxLetf {
+  flex: 0 0 40%;
+  height: 40rem;
+  background-color: var(--secondary-color);
+  overflow: hidden;
+  transition: all 0.5s;
+}
+.ProjectBoxLetf:hover {
+  backface-visibility: hidden;
+  box-shadow: 0 0 0 2px var(--third-color);
+}
+
+.ProjectBoxLetfHeading {
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--third-color);
+  border-radius: 0 0 4rem 4rem;
+  transition: all 0.5s;
+}
+.ProjectBoxLetf:hover .ProjectBoxLetfHeading {
+  transform: scale(1.04);
+}
+
+.ProjectBoxLetfContent ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ProjectBoxLetfContent ul li {
+  margin: 2rem 0;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--white-color);
+}
+
+.ProjectBoxRight {
+  position: relative;
+  flex: 0 0 50%;
+  height: 40rem;
+  border-radius: 0.5rem;
+  position: relative;
+}
+
+.ProjectBoxRightWrapper {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  transition: all 0.5s;
+}
+.ProjectBoxRightWrapper:hover {
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0 2px var(--third-color);
+}
+
+.ProjectBoxRightWrapper img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+  opacity: 0.9;
+}
+
+.carouselCaption {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 5rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carouselCaption p {
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--font-color-1);
+  font-size: 2rem;
+}
+
+.actions a {
+  font-size: 2.5rem;
+  color: var(--font-color-1);
+  background-color: var(--secondary-color);
+  padding: 1rem;
+  border-radius: 100rem;
+}
+
+.actions .left {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.actions .left:active {
+  border: 1px solid var(--primary-color);
+}
+
+.actions .right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.actions .right:active {
+  border: 1px solid var(--primary-color);
+}
+
+@media screen and (max-width: 112.5em) {
+  .projects {
+    padding: 4rem;
+  }
+}
+
+@media screen and (max-width: 75em) {
+  .ProjectBoxLetfContent ul li {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 56.25em) {
+  .ProjectBox {
+    flex-direction: column;
+  }
+
+  .ProjectBoxLetf {
+    width: 100%;
+    order: 1;
+  }
+
+  .ProjectBoxRight {
+    margin-bottom: 4rem;
+  }
+}

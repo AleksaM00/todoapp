@@ -1,0 +1,99 @@
+.contact {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.contact h3 {
+  text-align: center;
+}
+
+.ContactBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+
+.contactBoxLeft {
+  flex: 0 0 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contactBoxLeft h4 {
+  margin-bottom: 3rem;
+}
+
+.contactBoxLeft a {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--white-color);
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  line-height: 1.7;
+}
+
+.contactBoxRight {
+  flex: 0 0 50%;
+}
+
+.contactBoxRight label {
+  display: block;
+  font-size: 3rem;
+  color: var(--white-color);
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.contactBoxRight input,
+textarea {
+  width: 100%;
+  outline: none;
+  background-color: transparent;
+  border: 3px solid var(--third-color);
+  color: var(--white-color);
+  padding: 1.5rem 3.5rem;
+  border-radius: 0.5rem;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  transition: all 0.5s;
+}
+.contactBoxRight input:focus,
+.contactBoxRight textarea:focus {
+  border: 3px solid var(--font-color-1);
+  transform: scale(1.02);
+}
+
+.contactBoxRight input::placeholder {
+  color: var(--white-color);
+  opacity: 0.2;
+}
+
+.success {
+  text-align: center;
+  color: green;
+}
+
+@media screen and (max-width: 112.5em) {
+  .contact {
+    padding: 4rem;
+  }
+}
+
+@media screen and (max-width: 56.25em) {
+  .ContactBox {
+    flex-direction: column;
+  }
+
+  .contactBoxLeft {
+    width: 70%;
+  }
+
+  .contactBoxRight {
+    width: 100%;
+  }
+}

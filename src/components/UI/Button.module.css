@@ -1,0 +1,23 @@
+.button {
+  border: none;
+  outline: none;
+  padding: 1.5rem 3rem;
+  color: white;
+  font-size: 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: var(--third-color);
+  margin-top: 3rem;
+  transition: all 0.5s;
+  margin-right: 1.5rem;
+}
+
+.button:hover {
+  background-color: var(--secondary-color);
+}
+
+@media screen and (max-width: 56.25em) {
+  .button {
+    width: 100%;
+  }
+}
