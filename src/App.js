@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import "./App.css";
 
 import Header from "./components/Header/Header";
@@ -9,7 +9,7 @@ import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
-    <Fragment className="App">
+    <section className="App">
       <Header />
       <main>
         <About />
@@ -17,7 +17,7 @@ function App() {
         <Projects />
         <Contact />
       </main>
-    </Fragment>
+    </section>
   );
 }
 
