@@ -1,0 +1,35 @@
+.todo {
+  background-color: #c5e1e6;
+  height: 5rem;
+  padding: 2.5rem 1rem;
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #939697;
+  cursor: pointer;
+}
+
+.todo h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  flex: 1;
+  margin-left: 0.5rem;
+  text-transform: capitalize;
+}
+
+.iconBox {
+  position: relative;
+  padding: 0.5rem;
+  background-color: rgb(8, 91, 91);
+  margin: 0 0.5rem;
+}
+
+.icon {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.succes {
+  background-color: green;
+}

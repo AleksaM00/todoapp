@@ -1,0 +1,20 @@
+.heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border: 2px solid #faebd7;
+  padding: 5rem;
+  transition: all 0.5s;
+}
+.heading:hover {
+  background-color: #faebd7;
+  color: rgb(74, 143, 217);
+}
+
+.heading {
+  font-size: 6rem;
+  letter-spacing: 5px;
+  color: #faebd7;
+}

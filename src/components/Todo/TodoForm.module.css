@@ -1,0 +1,81 @@
+.container {
+  max-width: 80rem;
+  width: 80rem;
+  background: #fff;
+  padding: 2rem;
+}
+
+.tasks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task {
+  margin-bottom: 3rem;
+}
+
+.numTasks {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  color: #0d75ec;
+}
+.numTasks span {
+  color: red;
+}
+
+.tasks input {
+  width: 80%;
+  height: 5rem;
+  font-size: 2rem;
+  border: 2px solid #d1d3d4;
+  padding: 2rem;
+  color: #111111;
+  font-weight: 500;
+}
+
+.tasks input:focus {
+  outline: none;
+  border-color: #0d75ec;
+}
+
+.tasks button {
+  margin-left: 1rem;
+  width: 20%;
+  height: 5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 2rem;
+  background-color: #0d75ec;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.task {
+  background-color: #fff;
+  margin-top: 3rem;
+  width: 100%;
+}
+
+input.invalid {
+  border-color: #c00000;
+}
+
+input.invalid::placeholder {
+  color: #c00000;
+}
+
+@media screen and (max-width: 75em) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 56.25em) {
+  .container {
+    width: 100%;
+  }
+}

@@ -1,0 +1,21 @@
+.listPage {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.empty {
+  font-size: 5rem;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(11, 103, 113);
+}
+
+.listPage .heading {
+  text-align: center;
+  font-size: 4rem;
+  color: #fff;
+  margin: 5rem 0;
+}

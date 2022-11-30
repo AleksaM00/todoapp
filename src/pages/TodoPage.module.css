@@ -1,0 +1,17 @@
+.todoPage {
+  max-width: 80rem;
+  margin: 15rem auto;
+}
+
+.todoPage .heading {
+  text-align: center;
+  font-size: 4rem;
+  color: #fff;
+  margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 75em) {
+  .todoPage {
+    width: 60%;
+  }
+}
