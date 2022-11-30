@@ -24,6 +24,7 @@ const About = () => {
               <SlBadge className={classes.badge} />
               <p className={classes.heading}>Education</p>
               <p>ITS, Comtarde</p>
+              <p>5/2021 - 06/2021</p>
             </div>
 
             <div className={`${classes.aboutRightBox} ${classes.box2}`}>
@@ -31,6 +32,7 @@ const About = () => {
               <p className={classes.heading}>Job</p>
 
               <p>OS Kosovski Bozur</p>
+              <p>5/2021 - 06/2021</p>
             </div>
           </div>
 

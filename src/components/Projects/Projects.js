@@ -69,7 +69,13 @@ const Projects = () => {
           <div className={classes.ProjectBoxRightWrapper}>
             <img src={images[index].url} alt="Carousel Images" />
             <div className={classes.carouselCaption}>
-              <p>Projects</p>
+              <a
+                href="https://github.com/AleksaM00"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Check My GitHub For Codes
+              </a>
             </div>
           </div>
 

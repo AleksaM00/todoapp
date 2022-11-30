@@ -48,7 +48,8 @@ const Contact = () => {
             <h4>LinkedIN</h4>
             <a
               href="https://www.linkedin.com/in/aleksa-milunovic/"
-              target="_blanc"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Aleksa Milunovic - LinkedIn
             </a>

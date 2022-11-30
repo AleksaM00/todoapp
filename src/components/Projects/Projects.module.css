@@ -91,7 +91,7 @@
   justify-content: center;
 }
 
-.carouselCaption p {
+.carouselCaption a {
   text-align: center;
   text-transform: uppercase;
   color: var(--font-color-1);
