@@ -43,3 +43,9 @@
   background-color: hsl(0, 0%, 10%);
   color: var(--white-color);
 }
+
+@media screen and (max-width: 56.25em) {
+  .socialMedia {
+    width: 60%;
+  }
+}

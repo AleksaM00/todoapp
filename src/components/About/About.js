@@ -49,7 +49,7 @@ const About = () => {
             to="contact"
             smooth={true}
             spy={true}
-            offset={100}
+            offset={-100}
             duration={800}
             activeClass="active"
           >

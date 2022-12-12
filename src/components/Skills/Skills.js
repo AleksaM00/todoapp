@@ -20,7 +20,7 @@ const Skills = () => {
 
             <div className={classes.skillsLeftRightBox}>
               <AiFillCheckCircle className={classes.badge} />
-              <p>CSS</p>
+              <p>CSS/SaaS</p>
             </div>
 
             <div className={classes.skillsLeftRightBox}>
